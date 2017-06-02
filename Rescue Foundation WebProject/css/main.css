@@ -1,0 +1,122 @@
+___________GENERAL___________
+
+body {margin: 25px;}
+
+.logo {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 0.4px;
+  line-height: 22px;
+  float:initial;
+  
+  }
+  
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: right;
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    text-transform: uppercase;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #a5d7a7;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+.container {
+color: green;
+}
+
+/**********FOOTER**********/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+___________________DONATE PAGE________________
+
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.donated {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.donated:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.donated .header {
+    background-color:white;
+    color: white;
+    font-size: 25px;
+}
+
+.donated li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.donated .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+ 
+}
+
